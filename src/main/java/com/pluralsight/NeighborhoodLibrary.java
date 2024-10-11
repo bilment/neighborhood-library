@@ -8,16 +8,16 @@ public class NeighborhoodLibrary {
     public NeighborhoodLibrary() {
         // Our inventory for 10 books
         books = new Book[10];
-        books[0] = new Book(1, "978-0134685912", "Effective Brain");
-        books[1] = new Book(2, "978-0596009253", "Thinking, Fast and Slow");
-        books[2] = new Book(3, "978-1491950345", "Predictably Irrational");
-        books[3] = new Book(4, "978-0134494184", "The Power of Habit");
-        books[4] = new Book(5, "978-0134694723", "Emotional Intelligence");
-        books[5] = new Book(6, "978-0134685942", "Skilled Brain");
-        books[6] = new Book(7, "978-0596009251", "Critical, Yung and Fredu");
-        books[7] = new Book(8, "978-1491950334", "Predictably Heart");
-        books[8] = new Book(9, "978-0134494165", "The Power of Java");
-        books[9] = new Book(10, "978-013469479", "Emotional Damage");
+        books[0] = new Book(1, "978-0134685912", "Effective Brain.");
+        books[1] = new Book(2, "978-0596009253", "Thinking, Fast and Slow.");
+        books[2] = new Book(3, "978-1491950345", "Predictably Irrational.");
+        books[3] = new Book(4, "978-0134494184", "The Power of Habit.");
+        books[4] = new Book(5, "978-0134694723", "Emotional Intelligence.");
+        books[5] = new Book(6, "978-0134685942", "Skilled Brain.");
+        books[6] = new Book(7, "978-0596009251", "Critical, Yung and Fredu.");
+        books[7] = new Book(8, "978-1491950334", "Predictably Heart.");
+        books[8] = new Book(9, "978-0134494165", "The Power of Java.");
+        books[9] = new Book(10, "978-013469479", "Emotional Damage.");
     }
 
     public void showAvailableBooks() {
